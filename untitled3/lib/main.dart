@@ -1,49 +1,14 @@
 import 'package:flutter/material.dart';
+//import 'package:untitled3/Widgets/Demo.dart';
+//import 'package:untitled3/Widgets/productCatalog.dart';
+//import 'package:untitled3/Widgets/Login.dart';
+//import 'package:untitled3/Widgets/Mediaquery.dart';
+//import 'package:untitled3/responsive/responsive_layout.dart';
+//import 'package:untitled3/Widgets/FittedBox.dart';
+//import 'package:untitled3/Widgets/Tela.dart';
+import 'package:untitled3/Widgets/main2.dart';
 
 void main() {
   runApp(const MainApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return  MaterialApp(
-      home: Scaffold(
-       appBar: AppBar(
-         title: Text('Stateles Demo'),
-       ),
-        body: Center(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.amberAccent,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              Container(
-                width: 100,
-                height: 200,
-                color: Colors.red,
-              ),
-
-              SizedBox(
-                width: 20,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.blue,
-              )
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
